@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: pink;
+
+    .card {
+        width: 500px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background: white;
+        .start_area,.game_area {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        img {
+
+            width: 50%;
+        }
+
+        p,
+        button {
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+
+        button {
+            font-weight: 400;
+            border-radius: 5px;
+            background: rgb(6, 81, 131);
+            color: white;
+            padding: 10px 15px;
+            margin: 10px 0px;
+            border: none;
+        }
+        .game_area{
+            display: none;
+            text-align: center;
+            #newGame{
+                display: none;
+                margin: auto;                
+            }
+        }
+    }
+}
